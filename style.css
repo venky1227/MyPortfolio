@@ -1,3 +1,5 @@
+@media all and (max-width: 500px) {
+
 html {
   scroll-behavior: smooth;
 }
@@ -63,4 +65,4 @@ body {
   border-radius: 0.5rem;
 }
 
-
+}
