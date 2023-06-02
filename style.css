@@ -7,6 +7,7 @@ body {
   font-family: "Baloo Tamma 2", cursive;
 }
 
+
 .m-heading {
   font-family: "Roboto Slab", serif;
 }
@@ -36,7 +37,6 @@ body {
 }
 
 .main_row img {
-  /* height: 100vh; */
   height: 80vh ;
   padding-top: 20%;
 }
@@ -50,9 +50,10 @@ body {
   border-bottom: 8px solid #f5ba09;
 }
 
-#social-media {
+#social-media { 
   background: #313552;
 }
+
 
 .media_link {
   padding: 1rem;
@@ -61,3 +62,5 @@ body {
   border: 2px solid #f5ba09;
   border-radius: 0.5rem;
 }
+
+
