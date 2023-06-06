@@ -23,7 +23,16 @@ body {
 }
 
 .main-container {
-  height: 100vh;
+  min-height: 100vh;
+  padding-top: 5rem;
+}
+
+.main-container-mobile {
+  min-height: 60vh;
+}
+
+.content h1 {
+  font-size: 4rem;
 }
 
 .main_row {
@@ -36,10 +45,20 @@ body {
   font-size: 5rem;
 }
 
-.main_row img {
-  height: auto ;
+/* .main_row img {
+  height: 100% ;
+  width: 100%;
+  object-fit: contain;
   padding-top: 20%;
+
+} */
+
+.main_row img {
+  width: auto;
+  height: 35rem;
+  padding-top: 10%;
 }
+
 
 .about {
   background: #313552;
@@ -52,7 +71,9 @@ body {
 
 #social-media { 
   background: #313552;
+  
 }
+
 
 
 .media_link {
@@ -74,10 +95,42 @@ body {
   display: inline-flex;
 } */
 
-.container {
-  width: 200%;
+/* .container {
+  width: 250%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+} */
+
+/* .row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  
+} */
+/* 
+.container text-white py-5{
+  width: 250%;
+  
+} */
+
+.media_link {
+  padding: 1rem;
+  max-width: 15rem;
+  margin-left: 1rem;
+  border: 2px solid #f5ba09;
+  border-radius: 0.5rem;
+}
+
+.showEmail {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  transition: 0.5s ease;
+  width: 100%;
 }
